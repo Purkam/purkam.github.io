@@ -7,7 +7,7 @@ body {
   width: 200px;
   height: 200px;
   position: relative;
-  animation-name: myanimation;
+  animation-name: myanimation2;
   animation-duration: 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -20,7 +20,7 @@ body {
   width: 200px;
   height: 200px;
   position: relative;
-  animation-name: myanimation2;
+  animation-name: myanimation3;
   animation-duration: 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -33,7 +33,7 @@ body {
   100% {background-color: white; left: 0px; top: 0px; border-radius: 50% 50% 50% 50%;}
 } */
 
-@keyframes myanimation {
+@keyframes myanimation2 {
   0% {background-color: white; border-radius: 0 0 0 0;}
   25% {background-color: black;  border-radius: 50% 0 0 0;}
   50% {background-color: white; border-radius: 50% 50% 0 0}
@@ -41,7 +41,7 @@ body {
   100% {background-color: white; border-radius: 50% 50% 50% 50%;}
 }
 
-@keyframes myanimation2 {
+@keyframes myanimation3 {
   0% {background-color: black; border-radius: 0 0 0 0;}
   25% {background-color: white;  border-radius: 50% 0 0 0;}
   50% {background-color: black; border-radius: 50% 50% 0 0}
