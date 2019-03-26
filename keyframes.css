@@ -3,7 +3,7 @@ body {
 }
 
 .box {
-  background: white;
+  background: red;
   width: 200px;
   height: 200px;
   position: relative;
@@ -37,9 +37,9 @@ body {
 }
 
 @keyframes myanimation2 {
-  0% {background-color: white; border-radius: 0 0 0 0;}
-  25% {background-color: black;  border-radius: 50% 0 0 0;}
-  50% {background-color: white; border-radius: 50% 50% 0 0}
-  75% {background-color: black;  border-radius: 50% 50% 50% 0;}
-  100% {background-color: white; border-radius: 50% 50% 50% 50%;}
+  0% {background-color: red; border-radius: 0 0 0 0;}
+  25% {background-color: blue;  border-radius: 50% 0 0 0;}
+  50% {background-color: green; border-radius: 50% 50% 0 0}
+  75% {background-color: yellow;  border-radius: 50% 50% 50% 0;}
+  100% {background-color: pink; border-radius: 50% 50% 50% 50%;}
 }
