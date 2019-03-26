@@ -7,7 +7,7 @@ body {
   width: 200px;
   height: 200px;
   position: relative;
-  animation-name: myanimation2;
+  animation-name: myanimation3;
   animation-duration: 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
